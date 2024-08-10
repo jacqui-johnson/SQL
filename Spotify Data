@@ -1,3 +1,5 @@
+#In this SQL, I'm querying a database to get find information about music played on Spotify.
+
 --What is the average danceability by artist and track? 
 
 SELECT artist_name, track_name, AVG(danceability), avg(popularity), avg(energy)
